@@ -41,6 +41,7 @@ padding-bottom:30px;
   display: block;
   padding: 0px;
   margin:0px;
+  margin-bottom: 10px;
   line-height: 0px;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -55,10 +56,10 @@ margin:5px;
 }
 
 
-/* .similarContainer h4{
+ .similarContainer h4{
 padding-left:5px;
 }
- */
+ 
 .similarItems {
 padding-left:15px !important;
 padding-right:0px !important;
