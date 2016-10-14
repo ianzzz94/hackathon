@@ -106,35 +106,35 @@
 		<div class="row">
             <div class="col-md-8">
                 <h3>Registration</h3>
-                <form name="sentMessage" id="contactForm" novalidate>
+                <form method="post" action="mailto:talentspottingabnamro@outlook.com?subject=Mijn%20Registratie" enctype="text/plain" name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Naam:</label>
-                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <input type="text" class="form-control" name="name" id="name" required data-validation-required-message="Please enter your name.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Telefoonnummer:</label>
-                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <input type="tel" class="form-control" name="phone" id="phone" required data-validation-required-message="Please enter your phone number.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>E-mailadres:</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                            <input type="email" class="form-control" name="email" id="email" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Studie:</label>
-                            <input type="text" class="form-control" id="study" required data-validation-required-message="Please enter your study.">
+                            <input type="text" class="form-control" name="study" id="study" required data-validation-required-message="Please enter your study.">
                         </div>
                     </div>
-                    <div id="success"></div>
+                    <!--<div id="success"></div>--> 
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Submit</button>
+					<input type="submit">
                 </form>
             </div>
 
@@ -161,7 +161,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <!--<script src="js/contact_me.js"></script>--> 
 </body>
 
 </html>
