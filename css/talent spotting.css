@@ -28,3 +28,49 @@ a:active  {color:black; background-color:transparent; text-decoration:none}
 i{
 padding:5px;
 }
+
+.detailTextbox{
+padding: 30px 70px 30px 70px;
+}
+
+.applyBtn{
+padding-bottom:30px;
+}
+
+.similarContainer {
+  display: block;
+  padding: 0px;
+  margin:0px;
+  line-height: 0px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+
+.similarContainer hr{
+margin:5px;
+}
+
+.similarContainer img{
+padding-left:5px;
+padding-right:0px !important ;
+}
+
+.similarContainer h4{
+padding-left:5px;
+}
+
+.similarItems {
+padding:5 !important;
+margin:0 !important;
+}
+
+.similarItems h5{
+padding-top:0px;
+}
+.similarItems p{
+font-size:3px;
+}
